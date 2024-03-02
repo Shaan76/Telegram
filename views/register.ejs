@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+
+    height: 100%;
+    width: 100%;
+    /* background-image: url("/images/images.jpg"); */
+    background-image: url("https://static.toiimg.com/photo/98997291.cms");
+background-repeat: no-repeat;
+background-position: center;
+background-image: calc(cover);
+background-size: cover;
+  }
+  form{
+    
+    width: 19rem;
+    height: 25rem;
+    background-color: aqua;
+    position:absolute;
+    
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    /* margin-top: ; */
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.73);
+    border-radius: 2rem;
+    box-shadow: 3px 4px 0px 0px rgba(238, 234, 232, 0.479);
+    /* background-image: url("https://static.toiimg.com/photo/98997291.cms");
+background-repeat: no-repeat;
+background-position: center;
+background-image: calc(cover);
+background-size: cover; */
+padding-top: 7rem;
+
+  }
+  input{
+    /* text-align: center; */
+    margin-top: 10px;
+    position: relative;
+    width:14rem;
+    padding-left: 10px;
+    height: 3rem;
+    background-color: transparent;
+    /* color: rgb(248, 251, 253); */
+    margin-left: 2.1rem;
+    border: none;
+
+    border-radius: 1rem;
+    border-bottom: 3px solid black;
+   /* border-color: rgb(6, 6, 6); */
+
+  }
+  input::placeholder{
+    color: black;
+  }
+  button{
+    background-color: rgba(0, 0, 255, 0.508);
+    color: rgb(247, 238, 238);
+    /* width: 6rem; */
+    /* height: 6rem; */
+    padding: 1rem 2rem;
+    width: 30%;
+    padding-right: 5rem;
+    margin-left:6rem;
+    margin-top: 10px;
+    border-radius: 30%;
+    border: none;
+  }
+</style>
+</head>
+<body>
+  <form action="/register" method="post" >
+    <h1>Telegram</h1>
+    <img src="" alt="">
+    <input type="text" placeholder="enter your username" name="username">
+    <input type="text" placeholder="Email" name="email">
+    <input type="password" placeholder="Password" name="password">
+    <!-- <input id="button" type="submit" placeholder="Resgister">
+    bu
+   -->
+   <button>register</button>
+  </form>
+</body>
+</html>
